@@ -16,4 +16,5 @@ galaxy_info:
     versions:
     - all
 
-dependencies: []
+dependencies:
+   - { role: "reboot", tags: "dependent_role" }
