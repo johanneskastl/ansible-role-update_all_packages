@@ -16,7 +16,7 @@ None.
 Dependencies
 ------------
 
-Needs the reboot role to trigger a reboot after setting the hostname.
+Needs the reboot role to trigger a reboot after applying all updates.
 
 Example Playbook
 ----------------
