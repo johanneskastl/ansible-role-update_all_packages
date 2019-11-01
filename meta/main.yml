@@ -19,4 +19,4 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
-   - { role: "reboot", tags: "dependent_role" }
+   - { role: "reboot" }
