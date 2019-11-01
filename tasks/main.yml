@@ -1,0 +1,15 @@
+---
+# tasks file for update_all_packages
+
+- name: "Refresh all repos"
+  shell: "zypper clean -a && zypper -n --gpg-auto-import-keys refresh --force"
+  changed_when: false
+  when: 'ansible_os_family == "Suse" or ansible_os_family == "openSUSE Leap"'
+
+- name: "Update all packages"
+  package:
+    name: "*"
+    state: latest
+  notify:
+    - "Reboot"
+    - "Wait for the machine(s) to be ready again"
