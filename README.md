@@ -1,7 +1,9 @@
+![Ansible Lint](https://github.com/johanneskastl/ansible-role-update_all_packages/workflows/Ansible%20Lint/badge.svg)
+
 update_all_packages
 =========
 
-Update all packages on a SUSE/openSUSE system after a `zypper refresh`. Reboot the machine afterwards.
+Update all packages on a system after a `zypper refresh`/`apt-get update`/`yum makecache`. Reboot the machine afterwards.
 
 Requirements
 ------------
@@ -23,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: username.rolename, x: 42 }
+         - { role: johanneskastl.update_all_packages }
 
 License
 -------
