@@ -3,7 +3,7 @@
 update_all_packages
 =========
 
-Update all packages on a SUSE/openSUSE system after a `zypper refresh`. Reboot the machine afterwards.
+Update all packages on a system after a `zypper refresh`/`apt-get update`/`yum makecache`. Reboot the machine afterwards.
 
 Requirements
 ------------
