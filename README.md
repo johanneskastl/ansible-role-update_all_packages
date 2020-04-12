@@ -1,3 +1,5 @@
+![Ansible Lint](https://github.com/johanneskastl/ansible-role-update_all_packages/workflows/Ansible%20Lint/badge.svg)
+
 update_all_packages
 =========
 
