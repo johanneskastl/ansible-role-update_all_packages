@@ -27,6 +27,10 @@ Example Playbook
       roles:
          - { role: 'johanneskastl.update_all_packages' }
 
+Note on ansible-lint
+-------
+ansible-lint warns that package tasks should not use `state=latest`, as this renders the playbook not idempotent. This warning is being ignored in this role.
+
 License
 -------
 
