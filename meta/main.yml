@@ -1,5 +1,6 @@
 galaxy_info:
   role_name: 'update_all_packages'
+  namespace: 'johanneskastl'
   author: 'Johannes Kastl'
   description: 'Update all packages installed on a system, after a zypper refresh'
   company: 'B1 Systems GmbH'
