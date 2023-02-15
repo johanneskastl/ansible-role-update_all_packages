@@ -1,10 +1,10 @@
 ---
 # tasks file for update_all_packages
 
-- name: "Update all packages"
+- name: 'Update all packages'
   ansible.builtin.package:
-    name: "*"
+    name: '*'
     state: latest
   notify:
-    - "Reboot"
-    - "Wait for the machine(s) to be ready again"
+    - 'Reboot'
+    - 'Wait for the machine(s) to be ready again'
