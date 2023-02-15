@@ -33,5 +33,5 @@ galaxy_info:
   galaxy_tags: []
 
 dependencies:
-   - role: "zypper_ref_accept_keys"
-   - role: "reboot"
+   - role: 'zypper_ref_accept_keys'
+   - role: 'reboot'
