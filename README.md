@@ -25,7 +25,7 @@ Example Playbook
 
     - hosts: servers
       roles:
-         - { role: 'johanneskastl.update_all_packages' }
+         - role: 'johanneskastl.update_all_packages'
 
 Note on ansible-lint
 -------
